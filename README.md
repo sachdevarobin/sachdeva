@@ -1,12 +1,10 @@
-```
-# sachdeva
 
-I'm uploading functional solutions in c++:
+# sachdeva
+Language c++:
+
 Question 1.
 Sol:
-
-class Solution {
-public:
+```
     vector<int> sum(vector<int>& num, int target) {
         unordered_map<int, int> m;
         for (int i = 0; i < num.size(); i++) {
@@ -17,13 +15,13 @@ public:
         }
         return {};
     }
-};
                                    
-                                   
+  ```
+  
   Question 2.
   Sol:
   
-  
+  ```
   bool palindrome(int n) {
   int t, r = 0;
   t = n;
